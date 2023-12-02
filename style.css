@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10% 1fr 10%;
+  height: 100vh;
+}
+.header {
+  grid-column: 1/5;
+  background-color: aqua;
+}
+.main {
+  grid-column: 1/4;
+  background-color: yellow;
+}
+.main-paragraph {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}
+.aside {
+  background-color: bisque;
+  grid-column: 4/5;
+}
+.footer {
+  background-color: blueviolet;
+  grid-column: 1/5;
+}
+.footer-paragraph {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+p {
+  background-color: violet;
+  min-width: 300px;
+  min-height: 40px;
+}
