@@ -37,4 +37,5 @@ p {
   background-color: violet;
   min-width: 300px;
   min-height: 40px;
+  text-align: center;
 }
